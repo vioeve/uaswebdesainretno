@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DCDCDC;
+}
+
+.navbar {
+background-color: #CB2B23;
+height: 80px;
+}
+.navbar-nav{
+position: absolute;
+left: 1050px;
+font-size: 20px;
+}
+
+.nav-item{
+margin: 10px;
+}
+
+.navbar-brand {
+    transition: transform 0.3s;
+	position: absolute;
+	left:50px;
+	color: white;
+	font-size: 22px;
+}
+
+.nav-link {
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+    padding: 5px 10px;
+	font-family: 'Montserrat';
+}
+
+.nav-link:hover {
+    color: black!important;
+    background-color: white;
+    
+}
+.fotosaya2{
+	left: 150px;
+	top: 60px;
+	position: absolute;
+}
+.skills{
+	position: absolute;
+	top:245px;
+	left:550px;
+}
+.about1 {
+        font-family: 'Inter';
+        font-size: 115px; /* Adjust the font size as needed */
+        color: transparent;
+        -webkit-text-stroke: 2px black; 
+        position: absolute;
+        left:180px;
+        top: 600px;
+}
+.about2 {
+        font-family: 'Inter';
+        font-size: 115px; /* Adjust the font size as needed */
+        color: transparent;
+        -webkit-text-stroke: 2px white; 
+        position: absolute;
+        left:180px;
+        top: 570px;
+}
+.tentang {
+	position: absolute;
+	font-family: 'Inter';
+	font-size: 30px;
+	top:190px;
+	left: 950px;
+}
+.kotak{
+	position: absolute;
+	top:240px;
+	left: 950px;
+}
+.pengertian{
+	position: absolute;
+	width: 400px;
+	top:290px;
+	left:950px;
+	font-family: 'Inter';
+	font-size: 16px;
+	text-align: justify;
+}
+.kotakmrh{
+	top: 800px;
+	height: 500px;
+	position: absolute;
+	height: 700px;
+}
+.study{
+	top: 900px;
+	position: absolute;
+	font-family: 'Inter';
+	font-size: 50px;
+	left: 80px;
+	color: white;
+}
+.esempe{
+	top: 1000px;
+	position: absolute;
+	left: 80px;
+	border-radius: 10px;
+}
+.esema{
+	top: 1150px;
+	position: absolute;
+	left: 80px;
+	border-radius: 10px;
+}
+.kuliah{
+	top: 1300px;
+	position: absolute;
+	left: 80px;
+	border-radius: 10px;
+}
+.smp{
+	top: 1020px;
+	position: absolute;
+	left: 230px;
+	font-size: 24px;
+	color: white;
+}
+.sma{
+	top: 1170px;
+	position: absolute;
+	left: 230px;
+	font-size: 24px;
+	color: white;
+	
+}
+.wisuda{
+	top: 1320px;
+	position: absolute;
+	left: 230px;
+	font-size: 24px;
+	color: white;
+	
+}
+.ktkputih{
+	top: 950px;
+	position: absolute;
+	left: 740px;	
+}
+.pengalaman{
+	top: 900px;
+	position: absolute;
+	font-family: 'Inter';
+	font-size: 50px;
+	left: 780px;
+	color: white;
+}
+.ktkputih1{
+	top: 1020px;
+	position: absolute;
+	left: 780px;
+}
+.ktkputih2{
+	top: 1120px;
+	position: absolute;
+	left: 780px;
+}
+.ktkputih3{
+	top: 1220px;
+	position: absolute;
+	left: 780px;
+}
+.ktkputih4{
+	top: 1320px;
+	position: absolute;
+	left: 780px;
+}
+.pensi1{
+	top: 1010px;
+	position: absolute;
+	left: 850px;
+	font-size: 20px;
+	color: white;
+}
+.hima1{
+	top: 1110px;
+	position: absolute;
+	left: 850px;
+	font-size: 20px;
+	color: white;
+}
+.pensi2{
+	top: 1210px;
+	position: absolute;
+	left: 850px;
+	font-size: 20px;
+	color: white;
+}
+.hima2{
+	top: 1310px;
+	position: absolute;
+	left: 850px;
+	font-size: 20px;
+	color: white;
+}
+.serpis{
+	top: 1530px;
+	position: absolute;
+	left: 670px;
+	font-size: 40px;
+	color: black;
+	font-family: 'Inter';
+}
+.what{
+	font-style: italic;
+	top: 1590px;
+	position: absolute;
+	left: 630px;
+	font-size: 22px;
+	color: #CB2B23;
+	font-family: 'Inter';
+}
+.desain{
+	position: absolute;
+	left: 120px;
+	top: 1680px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+}
+.ux{
+	position: absolute;
+	left: 440px;
+	top: 1680px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+}
+.video{
+	position: absolute;
+	left: 770px;
+	top: 1680px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+}
+.animasi{
+	position: absolute;
+	left: 1090px;
+	top: 1680px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+}
+.ktkabu{
+	
+	position: absolute;
+	left: 1090px;
+	top: 1950px;
+}

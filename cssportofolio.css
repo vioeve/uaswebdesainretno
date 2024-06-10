@@ -1,0 +1,469 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DCDCDC;
+}
+
+.navbar {
+background-color: #CB2B23;
+height: 80px;
+}
+.navbar-nav{
+position: absolute;
+left: 1050px;
+font-size: 20px;
+}
+
+.nav-item{
+margin: 10px;
+}
+
+.navbar-brand {
+    transition: transform 0.3s;
+	position: absolute;
+	left:50px;
+	color: white;
+	font-size: 22px;
+}
+
+.nav-link {
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+    padding: 5px 10px;
+	font-family: 'Montserrat';
+}
+
+.nav-link:hover {
+    color: black!important;
+    background-color: white;
+    
+}
+.porto{
+	position: absolute;
+	top: 110px;
+	left: 630px;
+	font-family: 'Inter';
+	font-size: 40px;
+}
+.portof{
+	position: absolute;
+	top: 170px;
+	left: 550px;
+	font-family: 'Inter';
+	font-size: 24px;
+	font-style: italic;
+}
+.merah{
+	position: absolute;
+	top: 230px;
+	left: 660px;
+}
+.merah2{
+	position: absolute;
+	top: 1530px;
+	left: 660px;
+}
+.website1{
+  position: absolute;
+  width: 430px;
+  left: 80px;
+  top: 300px;
+	height: 300px;
+		
+}
+
+.sph {
+  display: block;
+  width: 430px;
+  height: 300px;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.website1:hover .overlay1 {
+  opacity: 70%;
+}
+
+.text1 {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Inter';
+}
+.animasi1{
+  position: absolute;
+  width: 430px;
+  left: 520px;
+  top: 300px;
+	height: 300px;
+		
+}
+.samudra {
+  display: block;
+  width: 430px;
+  height: 300px;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.animasi1:hover .overlay2 {
+  opacity: 70%;
+}
+
+.text2 {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Inter';
+}
+.animasi2{
+  position: absolute;
+  width: 430px;
+  left: 960px;
+  top: 300px;
+	height: 300px;
+		
+}
+.biodata {
+  display: block;
+  width: 430px;
+  height: 300px;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.animasi2:hover .overlay3 {
+  opacity: 70%;
+}
+
+.text3 {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Inter';
+}
+.foto{
+  position: absolute;
+  width: 430px;
+  left: 80px;
+  top: 610px;
+	height: 300px;
+		
+}
+.fotografi {
+  display: block;
+  width: 430px;
+  height: 300px;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.foto:hover .overlay4 {
+  opacity: 70%;
+}
+
+.text4 {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Inter';
+}
+.package{
+  position: absolute;
+  width: 430px;
+  left: 520px;
+  top: 610px;
+	height: 300px;
+		
+}
+.packaging {
+  display: block;
+  width: 430px;
+  height: 300px;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.package:hover .overlay5 {
+  opacity: 70%;
+}
+
+.text5 {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Inter';
+}
+.artbook{
+  position: absolute;
+  width: 430px;
+  left: 960px;
+  top: 610px;
+	height: 300px;
+		
+}
+.art {
+  display: block;
+  width: 430px;
+  height: 300px;
+}
+
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.artbook:hover .overlay6 {
+  opacity: 70%;
+}
+
+.text6 {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Inter';
+}
+.poster1{
+  position: absolute;
+  width: 430px;
+  left: 80px;
+  top: 920px;
+	height: 540px;
+		
+}
+.post {
+  display: block;
+  width: 430px;
+  height: 540px;
+}
+
+.overlay7 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.poster1:hover .overlay7 {
+  opacity: 70%;
+}
+
+.text7 {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Inter';
+}
+.poster2{
+  position: absolute;
+  width: 430px;
+  left: 520px;
+  top: 920px;
+	height: 540px;
+		
+}
+.post2 {
+  display: block;
+  width: 430px;
+  height: 540px;
+}
+
+.overlay8 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.poster2:hover .overlay8 {
+  opacity: 70%;
+}
+
+.text8 {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Inter';
+}
+.komik{
+  position: absolute;
+  width: 430px;
+  left: 960px;
+  top: 920px;
+	height: 540px;
+		
+}
+.comic {
+  display: block;
+  width: 430px;
+  height: 540px;
+}
+
+.overlay9 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.komik:hover .overlay9 {
+  opacity: 70%;
+}
+
+.text9 {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Inter';
+}
+.ktkabu{
+	top:1550px;
+	position: absolute;
+}
+.about1 {
+        font-family: 'Inter';
+        font-size: 80px; /* Adjust the font size as needed */
+        color: transparent;
+        -webkit-text-stroke: 2px white; 
+        position: absolute;
+        left:50px;
+        top: 200px;
+}
+
+

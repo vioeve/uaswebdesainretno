@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DCDCDC;
+}
+
+.navbar {
+background-color: #CB2B23;
+height: 80px;
+}
+.navbar-nav{
+position: absolute;
+left: 1050px;
+font-size: 20px;
+}
+
+.nav-item{
+margin: 10px;
+}
+
+.navbar-brand {
+    transition: transform 0.3s;
+	position: absolute;
+	left:50px;
+	color: white;
+	font-size: 22px;
+}
+
+.nav-link {
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+    padding: 5px 10px;
+	font-family: 'Montserrat';
+}
+
+.nav-link:hover {
+    color: black!important;
+    background-color: white;
+    
+}
+.merah{
+	position: absolute;
+	left: 300px;
+	top: 250px;
+		
+}
+.judulkontak{
+	position: absolute;
+	top: 110px;
+	left: 630px;
+	font-family: 'Inter';
+	font-size: 40px;
+}
+.subjudul{
+	position: absolute;
+	top: 170px;
+	left: 500px;
+	font-family: 'Inter';
+	font-size: 24px;
+	font-style: italic;
+}
+.ig{
+	position: absolute;
+	top: 230px;
+	left: 530px;
+	
+}
+.wa{
+	position: absolute;
+	top: 370px;
+	left: 530px;
+	
+}
+.email{
+	position: absolute;
+	top: 510px;
+	left: 530px;
+	
+}
+
+

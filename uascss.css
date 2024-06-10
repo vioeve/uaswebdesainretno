@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DCDCDC;
+}
+
+.navbar {
+background-color: #CB2B23;
+height: 80px;
+}
+.navbar-nav{
+position: absolute;
+left: 1050px;
+font-size: 20px;
+}
+
+.nav-item{
+margin: 10px;
+}
+
+.navbar-brand {
+    transition: transform 0.3s;
+	position: absolute;
+	left:50px;
+	color: white;
+	font-size: 22px;
+}
+
+.nav-link {
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+    padding: 5px 10px;
+	font-family: 'Montserrat';
+}
+
+.nav-link:hover {
+    color: black!important;
+    background-color: white;
+    
+}
+.img-fluid{
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	left: 690px;
+	top: 120px;
+}
+
+
+.judulutama {
+    color: black;
+	font-family: 'Inter';
+	font-size: 30px;
+	position: absolute;
+	left: 200px;
+	top: 230px;
+	width: 150px;
+}
+.satu{
+	font-size: 140px;
+}
+.dua{
+	font-size: 140px;
+}
+.fotosaya{
+	top: 190px;
+	left: 670px;
+	position: absolute;
+	
+}
+.penjelasan{
+	width: 250px;
+	font-family: 'Inter';
+	left:210px;
+	top:170px;
+	position: absolute;
+}
+.bulatkcl{
+	position: absolute;
+	left: 30px;
+	top: 680px;
+}
+footer {
+	top: 670px;
+ 	left: 1250px;
+	position: absolute;
+    font-size: 20px;
+    color: black;
+	font-size: 22px;
+	
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
